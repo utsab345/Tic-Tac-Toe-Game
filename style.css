@@ -1,0 +1,78 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: "Raleway", sans-serif;
+}
+
+body {
+    background: linear-gradient(180deg, yellow, blue);
+    height: 100vh;
+}
+
+.container {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+#btn {
+    height: 64vmin;
+    width: 64vmin;
+    gap: 1.2vmin;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.btn {
+    background-color: #ffffff;
+    height: 20vmin;
+    width: 20vmin;
+    font-size: 65px;
+    border-radius: 8px;
+    border: none;
+}
+
+.restart button {
+    margin-top: 7%;
+    margin-left: 39%;
+    font-size: 1.1em;
+    padding: 1em;
+    border: none;
+    border-radius: 8px;
+    background-color: black;
+    color: white;
+}
+
+.popup {
+    background: linear-gradient(180deg, yellow, blue);
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    display: flex;
+    z-index: 2;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 1em;
+    font-size: 12vmin;
+
+}
+
+#newGame {
+    font-size: .6em;
+    padding: .5em 1em;
+    background-color: #0a0027;
+    border-radius: .2em;
+    border: none;
+    color: white;
+}
+
+#msg {
+    color: white;
+    text-align: center;
+}
+
+.popup.hide {
+    display: none;
+}
